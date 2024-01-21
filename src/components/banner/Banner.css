@@ -1,0 +1,75 @@
+.banner{
+   
+    background-size: cover;
+    height: 420px;
+    color: white;
+   
+}
+.content{
+    padding-top: 140px;
+    height: 190px;
+  
+
+}
+.title{
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 0.3rem;
+
+}
+.button{
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(51, 51, 51, 51);
+    cursor: pointer;
+    margin-right: 1rem;
+    margin-left: 5px;
+
+}
+.button:hover{
+    color: black;
+    background-color: #e6e6e6;
+}
+.description{
+    width: 48rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 1rem;
+    height: 80px;
+    max-width: 70%;
+    padding-left: 10px;
+
+}
+.fade{
+    height: 7.4rem;
+    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,.61),#111);
+
+
+}
+
+@media only screen and (max-width : 768px){
+    
+    .description{
+        max-width: 100%;
+        line-height: 0.9rem;
+        font-size: 0.8rem;
+       
+        padding-right: 10px;
+        
+    }
+    .banner{
+   
+        background-size: cover;
+       height: 417px;
+        color: white;
+       
+    }
+
+}
